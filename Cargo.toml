@@ -1,0 +1,7 @@
+[package]
+name = "rouille-react"
+version = "0.1.0"
+authors = ["AlexandreImperiale <https://github.com/AlexandreImperiale>"]
+
+[dependencies]
+rouille = "2.1.0"

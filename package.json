@@ -1,0 +1,24 @@
+{
+  "name": "rouille-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/front/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreImperiale/rouille-react.git"
+  },
+  "keywords": [],
+  "author": "AlexandreImperiale <https://github.com/AlexandreImperiale>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreImperiale/rouille-react/issues"
+  },
+  "homepage": "https://github.com/AlexandreImperiale/rouille-react#readme",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
