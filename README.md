@@ -11,16 +11,16 @@ A starter crate for using Rust crate rouille as backend and ReactJs as frontend,
 
 * Go to your `rouille-react` local directory
     > cd my/path/to/rouille-react/
-* Install webpack locally. This step should create the `node_modules/` directory.
-    > npm install webpack
-* Install react components
-    > npm install react react-dom
 * Install babel loader
     > npm install babel-loader babel-core
 * Install babel presets
     > npm install babel-preset-env babel-preset-react
 * Install .css file loader
     > npm install css-loader
+* Install react components
+    > npm install react react-dom
+* Install webpack
+    > npm install webpack
 * Install webpack command line interface
     > npm install webpack-cli
 * Create webpack bundle (in development mode) using
