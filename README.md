@@ -32,11 +32,12 @@ A starter crate for using Rust crate rouille as backend and ReactJs as frontend,
 
 * Go to your `rouille-react` local directory
     > cd my/path/to/rouille-react/
+* Install every dependencies locally by running
+    > npm install
 * Run the `npm`script (defined in the `package.json` file)
     > npm run build
-
-The last command should install locally every dependencies, run webpack to compile React.js file and build 
-the Rust server side.
+    
+The last command should run webpack to compile React.js file and build the Rust server side.
 
 # Runing server
 

@@ -5,3 +5,5 @@
 /.idea/
 *.lock
 /node_modules/
+
+src/front/bundle.js
