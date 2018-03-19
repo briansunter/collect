@@ -7,27 +7,6 @@ A starter crate for using Rust crate rouille as backend and ReactJs as frontend,
 
 * Make sure you have the latest version of [Node.js' package ecosystem installed `npm`](https://nodejs.org/en/)
 
-# Step-by-step install
-
-* Go to your `rouille-react` local directory
-    > cd my/path/to/rouille-react/
-* Install babel loader
-    > npm install babel-loader babel-core
-* Install babel presets
-    > npm install babel-preset-env babel-preset-react
-* Install .css file loader
-    > npm install css-loader
-* Install react components
-    > npm install react react-dom
-* Install webpack
-    > npm install webpack
-* Install webpack command line interface
-    > npm install webpack-cli
-* Create webpack bundle (in development mode) using
-    > npx webpack
-* Build rust server side using the `nightly` channel
-    > cargo +nightly build
-    
 # Install using npm scripts
 
 * Go to your `rouille-react` local directory
@@ -36,7 +15,7 @@ A starter crate for using Rust crate rouille as backend and ReactJs as frontend,
     > npm install
 * Run the `npm`script (defined in the `package.json` file)
     > npm run build
-    
+
 The last command should run webpack to compile React.js file and build the Rust server side.
 
 # Runing server
