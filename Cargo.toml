@@ -5,3 +5,8 @@ authors = ["AlexandreImperiale <https://github.com/AlexandreImperiale>"]
 
 [dependencies]
 rouille = "2.1.0"
+postgres = { version = "0.15.2", default-features = false }
+log = "0.4"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
